@@ -1,0 +1,54 @@
+./" This is our man page for the project Basic shell
+.TH man 1 "Noviembre 11 2020" "0.1" "HShell man page"
+.SH NAME
+.B hshell
+- Mini shell for Holberton School
+
+./" This is the synopsis
+.SH SYNOPSIS
+#include "holberton.h"
+
+hsh
+.B [OPTION] [FILE]
+
+
+.SH DESCRIPTION
+reads a standard input into the terminal, sends a standard output and its corresponding standard error back to the terminal unless the user requests that it be sent elsewhere.
+
+Shell divides into tokens, a token is a command, variable or other symbol recognized by shell, it continues to accompany a sequence of tokens until it reaches a reserved word, a function or operator name.
+
+
+
+.SH EXAMPLES
+
+In this mini-shell you can work in two different modes, interactive and non-interactive depending on the need or request of the user.
+
+.SH Non-Interactive mode
+
+echo
+.B "[command]"
+| ./hsh
+
+.SH Interactive mode
+
+.B ./hsh
+
+.B $
+ls
+
+.B $
+env
+
+.B $
+pwd
+
+.B $
+/bin/ls
+
+.B $
+echo Holberton
+
+
+.SH AUTHOR(S)
+Written by
+.B Andes Felipe Ahumada
