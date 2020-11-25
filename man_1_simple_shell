@@ -2,9 +2,9 @@
 .TH man 1 "Noviembre 11 2020" "0.1" "HShell man page"
 .SH NAME
 .B hshell
-- Mini shell for Holberton School
+-Mini shell for Holberton School
 
-./" This is the synopsis
+./This is the synopsis
 .SH SYNOPSIS
 #include "holberton.h"
 
@@ -13,11 +13,8 @@ hsh
 
 
 .SH DESCRIPTION
-reads a standard input into the terminal, sends a standard output and its corresponding standard error back to the terminal unless the user requests that it be sent elsewhere.
-
+reads a standard input into the terminal, sends a standard output and its corresponding standard error back to theterminal unless the user requests that it be sent elsewhere.
 Shell divides into tokens, a token is a command, variable or other symbol recognized by shell, it continues to accompany a sequence of tokens until it reaches a reserved word, a function or operator name.
-
-
 
 .SH EXAMPLES
 
@@ -47,7 +44,6 @@ pwd
 
 .B $
 echo Holberton
-
 
 .SH AUTHOR(S)
 Written by
