@@ -1,9 +1,9 @@
-# ### Basic Shell
+# Basic Shell
 
 [![holberton](https://images.squarespace-cdn.com/content/v1/5a4bfe8bf09ca4228ceca3b7/1539139199598-ANH454IHZI1OKWONKRXY/ke17ZwdGBToddI8pDm48kNp8pt3EdxuCXc7Btqw6aCUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc582kKJI7R4YoEbaG0ar5y9SuJlHH4BCe-KXYJFHtaWtSg47dcfuoHTlsl7xAkdij/logo.jpg?format=2500w "holberton")](https://images.squarespace-cdn.com/content/v1/5a4bfe8bf09ca4228ceca3b7/1539139199598-ANH454IHZI1OKWONKRXY/ke17ZwdGBToddI8pDm48kNp8pt3EdxuCXc7Btqw6aCUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc582kKJI7R4YoEbaG0ar5y9SuJlHH4BCe-KXYJFHtaWtSg47dcfuoHTlsl7xAkdij/logo.jpg?format=2500w "holberton")
 
 ## what is this project?
-is a project to create our own shell, is one of the first large projects where we implemented everything seen in this quarter 
+is a project to create our own mini shell, our shell is a simple version that has basic functionality. You can create / write / read / open / delete folders, print things in terminal, change directories, etc. Is one of the first large projects where we implemented everything seen in this quarter 
 
 the commands authorized to use the shell were
 * `chdir (man 2 chdir)`
