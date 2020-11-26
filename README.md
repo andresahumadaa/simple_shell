@@ -22,6 +22,21 @@ the commands authorized to use the shell were
 * `write (man 2 write)`
 
 ## how is it composed? and why ?
-- **PID & PPID**
+- **PID & PPID
 A process is an instance of an executing program, that has a unique process ID. This process ID is used by many functions and system calls to interact with \
 and manipulate processes. In order to retrieve the current process ID, getpid (man 2 getpid)
+
+## How To Install & Compile
+To have this repository and its content, you must execute the following on your terminal:
+$ git clone https://github.com/andresahumadaa/simple_shell.git
+$ cd simple_shell/
+
+You do not need to create a main function as it is already in our files.
+
+Once you done installing it you are able to write make build in your terminal and the shell will be running by then.
+
+## Description of the files contained
+|  name | description and funcion  |
+| ------------ | ------------ |
+|  holberton.h |Header file. It contains the necessary standard libraries and the prototypes used in all the functions of the program.  |
+| simple_shell.c | Contains the main function that execute our own shell |
