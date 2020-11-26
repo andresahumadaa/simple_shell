@@ -1,4 +1,11 @@
 #include "holberton.h"
+#define TRUE 1
+#define MAGENTA "\033[35m"
+#define RSTFMT "\033[0m"
+#define PROMPT MAGENTA "#jgsh$ " RSTFMT
+#define ERROR_EXIT 1
+#define ERROR_CMD 2
+void myperror(int error_code, int counter, char *shellname, char **args);
 /**
  * main - basic shell
  * @argc: argument counter
@@ -14,6 +21,9 @@ exit_status = loop(argv[0]); /*infinite command loop*/
 (void)argc;
 return (exit_status);
 }
+#define BUFSIZE 1
+#define NARGS 16
+#define SPLITCHARS " \t"
 /**
  * loop - shell loop
  * @shellname: name of shell
